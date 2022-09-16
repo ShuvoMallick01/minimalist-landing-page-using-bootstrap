@@ -24,3 +24,29 @@ Keywords: eCommerce, Template etc.
 /* ====================== Next Page ====================== */
 /* ===== Home Page CSS ===== */
 /* ====================== Next Page ====================== */
+
+:root {
+  --color-primary: #23415c;
+  --color-white: #fff;
+  --color-gray: #d5d5d5;
+}
+
+.custom-navbar {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+}
+
+.custom-navbar li a {
+  color: var(--color-gray);
+}
+
+.navbar-nav li a:hover {
+  color: #fff !important;
+}
+
+.custom-active {
+  color: #fff !important;
+}
