@@ -50,3 +50,26 @@ Keywords: eCommerce, Template etc.
 .custom-active {
   color: #fff !important;
 }
+
+/* Banner css start */
+.bg-image {
+  background-image: url("../assets/images/banner.jpg");
+  max-height: 80vh;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.custom-banner-content {
+  height: 80vh;
+}
+
+.custom-banner-content h1 {
+  color: var(--color-primary);
+  font-size: 70px;
+
+  font-weight: 700;
+}
