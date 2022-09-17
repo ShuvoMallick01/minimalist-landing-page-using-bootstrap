@@ -2,9 +2,9 @@
 
 Template: Landing Page
 Author: Shuvo Mallick
-Description: Complete ecommerce Template
+Description: Minimalist Landing Page Using Bootstrap
 Version: 1.0.0
-Keywords: eCommerce, Template etc. 
+Keywords: landing page, Template etc. 
 
 */
 
@@ -29,6 +29,10 @@ Keywords: eCommerce, Template etc.
   --color-primary: #23415c;
   --color-white: #fff;
   --color-gray: #d5d5d5;
+
+  --color-grey-700: #666276;
+  --color-grey-800: #454056;
+  --color-grey-900: #1f1b2d;
 }
 
 .custom-navbar {
@@ -41,6 +45,11 @@ Keywords: eCommerce, Template etc.
 
 .custom-navbar li a {
   color: var(--color-gray);
+  font-weight: 600;
+}
+
+.custom-navbar ul li {
+  padding-left: 10px;
 }
 
 .navbar-nav li a:hover {
@@ -61,6 +70,7 @@ Keywords: eCommerce, Template etc.
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 .custom-banner-content {
@@ -70,6 +80,48 @@ Keywords: eCommerce, Template etc.
 .custom-banner-content h1 {
   color: var(--color-primary);
   font-size: 70px;
-
   font-weight: 700;
+}
+
+.custom-banner-content h5 {
+  color: var(--color-grey-700) !important;
+}
+
+.custom-btn {
+  background-color: var(--color-primary) !important;
+  color: var(--color-white) !important;
+  font-weight: 500 !important;
+  border: none !important;
+}
+
+.custom-btn:hover {
+  background-color: var(--color-white) !important;
+  color: var(--color-primary) !important;
+  font-weight: 500 !important;
+  border: none !important;
+}
+/* Banner End */
+
+/* Only Image Section Start */
+.custom-only-img {
+  background-image: url("../assets/images/Banner.jpg");
+  max-height: 80vh;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Footer Start */
+footer {
+  background-color: var(--color-primary) !important;
+  color: var(--color-gray);
+}
+
+.custom-social-icons i {
+  padding: 10px;
+  font-size: 20px;
+  color: var(--color-gray);
 }
